@@ -6,7 +6,7 @@ export const Topbar = () => {
     <header className="sticky flex h-16 items-center justify-between px-4 ">
       <div className="flex items-center gap-3">
         <div className="text-indigo-500 text-xl font-bold tracking-tight">Streamflix</div>
-        <nav>
+        <nav className="hidden md:block">
           <ul className="flex items-center gap-3 text-white text-sm">
             <li>
               <Link to="/" className="font-bold">Home</Link>
